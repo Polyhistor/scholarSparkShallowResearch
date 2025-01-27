@@ -8,7 +8,8 @@ on:
     paths:
       - "helm/**"
       - ".github/workflows/helm-release.yaml"
-
+      - "app/**"
+      
 jobs:
   release:
     runs-on: ubuntu-latest
