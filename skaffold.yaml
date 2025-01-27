@@ -1,0 +1,31 @@
+apiVersion: skaffold/v4beta5
+kind: Config
+metadata:
+  name: shallowresearchscholarspark
+
+build:
+  artifacts:
+    - image: shallowresearchscholarspark
+      context: .
+      docker:
+        dockerfile: Dockerfile
+
+deploy:
+  helm:
+    releases:
+      - name: shallowresearchscholarspark
+        chartPath: helm
+        namespace: scholar-spark-dev
+        createNamespace: true
+        valuesFiles:
+          - helm/values.yaml
+        setValues:
+          image.repository: shallowresearchscholarspark
+          image.tag: latest
+
+portForward:
+  - resourceType: service
+    resourceName: shallowresearchscholarspark
+    namespace: scholar-spark-dev
+    port: 8000
+    localPort: 8000
