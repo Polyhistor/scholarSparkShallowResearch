@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "shallowresearchscholarspark"
-version = "0.1.2"
-description = "This is the service that handles the shallow research aspect of the scholar spark"
-authors = ["Pouya Ataei <pouya.ataei@scholarspark.com>"]
+version = "0.2.0"
+description = "A FastAPI microservice"
+authors = ["pouya <pouya@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"

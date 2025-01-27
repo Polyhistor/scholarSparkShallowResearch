@@ -1,6 +1,6 @@
 apiVersion: v2
 name: shallowresearchscholarspark
-description: This is the service that handles the shallow research aspect of the scholar spark
+description: A FastAPI microservice
 type: application
-version: 0.1.2
+version: 0.2.0
 appVersion: "1.0.0"

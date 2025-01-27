@@ -3,8 +3,8 @@ from app.api.routes.router import router
 
 app = FastAPI(
     title="shallowresearchscholarspark",
-    description="This is the service that handles the shallow research aspect of the scholar spark",
-    version="0.1.2"
+    description="A FastAPI microservice",
+    version="0.2.0"
 )
 
 app.include_router(router)
