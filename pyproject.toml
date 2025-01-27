@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shallowresearchscholarspark"
-version = "0.1.0"
+version = "0.1.1"
 description = "This is the service that handles the shallow research aspect of the scholar spark"
 authors = ["Pouya Ataei <pouya.ataei@scholarspark.com>"]
 

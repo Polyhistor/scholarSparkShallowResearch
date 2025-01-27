@@ -2,5 +2,5 @@ apiVersion: v2
 name: shallowresearchscholarspark
 description: This is the service that handles the shallow research aspect of the scholar spark
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "1.0.0"
