@@ -4,4 +4,4 @@ router = APIRouter()
 
 @router.get("/")
 async def root():
-    return {"message": "Welcome to shallowresearchscholarspark shallow research scholar spark"}
+    return {"message": "Welcome to shallowresearchscholarspark shallow research scholar spark test"}
